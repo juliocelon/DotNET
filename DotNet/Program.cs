@@ -1,4 +1,5 @@
 ﻿using System;
+using DotNetTopics;
 
 namespace GenericsOnDotNet
 {
@@ -17,6 +18,10 @@ namespace GenericsOnDotNet
 
             GenericClassWithTwoTypes<Exception, string> gc2 = new GenericClassWithTwoTypes<Exception, string>("message");
             gc2.Proccess("to process");
+
+            Enums.Execute();
+
+            Arrays.Execute();
         }
     }
 }

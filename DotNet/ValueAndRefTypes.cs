@@ -2,11 +2,7 @@
 namespace GenericsOnDotNet
 {
     public class ValueAndRefTypes
-    {
-        public ValueAndRefTypes()
-        {
-        }
-            
+    {            
         public static void Test()
         {
             // NULLABLE TYPE
