@@ -22,6 +22,12 @@ namespace GenericsOnDotNet
             Enums.Execute();
 
             Arrays.Execute();
+
+            ParamsExample.Sum(1,2,3);
+
+            // method of extention
+            string message = "It is a test of methods of extention";
+            message.CountWords();
         }
     }
 }
